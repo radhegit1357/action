@@ -5,7 +5,7 @@ name: first workflow
 # Controls when the workflow will run
 on:
  issues:
-  types: [open,close,reopened]
+  types: [opened,closed,reopened]
   # Triggers the workflow on push or pull request events but only for the "main" branch
   #push:
    # branches: [ "main" ]
